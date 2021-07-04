@@ -1,0 +1,84 @@
+.article:hover{
+    color:black;
+}
+html{
+scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#welcome {
+    position:absolute;
+    height: 800px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index:9;
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin:8px auto;
+}
+
+img {
+    border-radius: 50%;
+    border-color: black;
+}
+
+body {
+    text-align: center;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+list-style: none;
+position:fixed;
+top: 0px;
+cursor: pointer;
+z-index:10;
+background: white;
+width:100%;
+}
+
+.links{
+font-family:monospace;
+float:left;
+color:black;
+padding-right:9px;
+padding-left: 9px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size:20px;
+    
+}
+.links:hover{
+    background-color:bisque;
+}
+p{
+    color:black;
+}
+#bio{
+padding-top:800px;
+}
+#contact{
+    background-color:crimson;
+    
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color:white;
+}
